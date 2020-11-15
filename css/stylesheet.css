@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Sura&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Sura&display=swap');
 
 body,
 ul[class] {
@@ -12,7 +12,7 @@ ul[class] {
 }
 
 body{
-  font-family: Poor Richard;
+  font-family: 'Poor Richard';
 }
 
 ul[class] {
