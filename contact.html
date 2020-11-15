@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link
+      href="//db.onlinewebfonts.com/c/1333b13c4f911f3160f1c2822573f70c?family=Poor+Richard"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body>
+    <div class="index-container">
+      <div class="nav-wrapper">
+        <div class="grad-bar"></div>
+        <nav>
+          <ul class="menu">
+            <a href="index.html" class="logo">
+              <img
+                src="images/logo-transparent-bg.png"
+                alt="Raum Kingdom Logo"
+              />
+            </a>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="releases.html">Releases</a></li>
+            <li class="item has-submenu">
+              <a tabindex="0">Merch<i class="fa fa-caret-down"></i></a>
+              <ul class="submenu">
+                <li class="subitem"><a href="clothing.html">Clothing</a></li>
+                <li class="subitem"><a href="records.html">Records & CD</a></li>
+              </ul>
+            </li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item"><a href="contact.html">Contact</a></li>
+            <li class="toggle">
+              <a href="#"><i class="fa fa-bars"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="centered">
+        <h1 id="lr">CONTACT US</h1>
+      </div>
+
+      <video autoplay muted loop id="micro">
+        <source src="images/BG-Micro.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <main>
+      <article class="latest" id="contact">
+        <h2>CONTACT US</h2>
+        <form action="#" name="contact_form">
+          <label for="first_name">First Name</label>
+          <input
+            name="first_name"
+            id="first_name"
+            type="text"
+            required
+            placeholder="John"
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            name="last_name"
+            id="last_name"
+            type="text"
+            required
+            placeholder="Doe"
+          />
+          <br />
+          <label for="email-field">Email</label>
+          <input
+            name="email"
+            id="email-field"
+            type="text"
+            required
+            placeholder="you@domain.com"
+          />
+          <br />
+          <label for="message">Message</label><br />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message here ..."
+            required
+          >
+          </textarea>
+          <div class="center">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </article>
+      <aside class="info">
+        <h2>THANK YOU</h2>
+        <p>
+          For getting in touch or just leaving a message. You can also contact
+          us through our social media links at the bottom of the page.
+        </p>
+        <img src="images/logo-transparent-bg.png" alt="Raum Kingdom Logo" />
+      </aside>
+    </main>
+    <footer>
+      <div class="social">
+        <div class="copy">
+          <small>&copy;2020 Raum Kingdom</small>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/Raum.Kingdom.ie/">
+            <img src="images/fb-footer50.png" alt="Facebook logo" />
+          </a>
+          <a href="https://twitter.com/raumkingdom">
+            <img src="images/twitter-footer50.png" alt="Facebook logo" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <div class="grad-bar"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
+  </body>
+</html>
